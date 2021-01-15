@@ -1,0 +1,29 @@
+---
+title: "sds192-mp2"
+output:
+  github_document:
+    html_preview: true
+---
+
+Mini-project 2:
+
+See (https://beanumber.github.io/sds192/mod_data.html) for the project instructions
+
+
+```{r, eval=TRUE, message=FALSE}
+library(tidyverse)
+# install.packages("fec16")
+library(fec16)
+```
+
+Verify that your data looks like this:
+
+```{r, eval=TRUE, message=FALSE}
+library(tidyverse)
+glimpse(results_house)
+glimpse(candidates)
+glimpse(committees)
+glimpse(contributions)
+```
+
+> Make sure that the row and column counts match!
